@@ -1,0 +1,67 @@
+.navbar-nav .nav-link {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+body {
+    background-image: url('bgporto1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .row {
+    padding: 0 100px;
+    width: 100%;
+}
+
+#myButton {
+    background-color: #212529;
+    color: white;
+    border: 1px solid #212529;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+#myButton:hover {
+    background-color: #1c1f23;
+    border-color: #1c1f23;
+}
+
+#aboutMeButton {
+    background-color: #212529;
+    color: white;
+    border: 1px solid #212529;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+#aboutMeButton:hover {
+    background-color: #1c1f23;
+    border-color: #1c1f23;
+}
